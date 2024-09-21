@@ -1,0 +1,25 @@
+[package]
+name = "bitch_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kira_framework = { path = "../kira_qqbot/crates/framework" }
+kira_framework_proc = { path = "../kira_qqbot/crates/framework_proc" }
+kira_qqbot = { path = "../kira_qqbot/crates/kira_qqbot" }
+bevy_app = "0.14.0"
+bevy_ecs = "0.14.0"
+anyhow = "1.0.86"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = "1.0.204"
+serde_json = "1.0.120"
+log = "0.4.22"
+sysinfo = "0.30.13"
+pretty_env_logger = "0.5.0"
+pinyin = "0.10"
+lazy_static = "1.5.0"
+flume = "0.11.0"
+rand_isaac = "0.3.0"
+rand_core = "0.6.4"
+rand = "0.8.5"
