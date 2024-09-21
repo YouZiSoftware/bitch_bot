@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-kira_framework = "0.2.3"
+kira_framework = "0.2.4"
 kira_framework_proc = "0.2.3"
-kira_qqbot = "0.2.3"
+kira_qqbot = "0.2.4"
 bevy_app = "0.14.0"
 bevy_ecs = "0.14.0"
 anyhow = "1.0.86"
