@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-kira_framework = { path = "../kira_qqbot/crates/framework" }
-kira_framework_proc = { path = "../kira_qqbot/crates/framework_proc" }
-kira_qqbot = { path = "../kira_qqbot/crates/kira_qqbot" }
+kira_framework = "0.2.3"
+kira_framework_proc = "0.2.3"
+kira_qqbot = "0.2.3"
 bevy_app = "0.14.0"
 bevy_ecs = "0.14.0"
 anyhow = "1.0.86"
